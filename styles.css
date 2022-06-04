@@ -13,21 +13,22 @@ main {
 .container {
   width: 440px;
   height: 400px;
-  transform: translate(0%, 18%);
+  transform: translate(0%, 15%);
 }
 h1 {
   color: hsl(300, 43%, 22%);
-  font-size: 42px;
+  font-size: 45px;
   font-weight: 700;
+  margin-right: 40px;
 }
 h3 {
   color: hsl(303, 10%, 53%);
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 1.6;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
 }
 .ratings {
-  transform: translate(0%, 18%);
+  transform: translate(0%, 15%);
   margin-top: 70px;
 }
 ul {
@@ -56,11 +57,12 @@ h4 {
   margin-top: 22px;
   font-size: 16px;
   margin-left: 40px;
+  font-weight: 800;
 }
 .bottom-container {
   display: flex;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 .magenta-cards1 {
   width: 420px;
@@ -74,11 +76,12 @@ h4 {
 }
 .name {
   color: white;
-  font-weight: 300;
+  font-weight: 500;
 }
 .status {
   color: hsl(333, 51%, 53%);
   margin-top: 3px;
+  font-weight: 300;
 }
 .details {
   /* margin-left: 60px; */
@@ -109,9 +112,9 @@ h4 {
 p {
   color: white;
   font-weight: 400;
-  padding: 45px;
-  line-height: 1.8;
-  font-size: 15px;
+  padding: 44px;
+  line-height: 1.4;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 380px) {
