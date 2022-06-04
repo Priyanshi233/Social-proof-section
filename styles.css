@@ -1,7 +1,7 @@
 @import url("http://fonts.cdnfonts.com/css/league-spartan");
 
 body {
-  font-family: "League Spartan";
+  font-family: "League Spartan", sans-serif;
   background-image: url("images/bg-pattern-top-desktop.svg"),
     url("images/bg-pattern-bottom-desktop.svg");
   background-repeat: no-repeat;
@@ -13,22 +13,22 @@ main {
 .container {
   width: 440px;
   height: 400px;
-  transform: translate(0%, 30%);
+  transform: translate(0%, 18%);
 }
 h1 {
   color: hsl(300, 43%, 22%);
-  font-size: 50px;
+  font-size: 42px;
   font-weight: 700;
 }
 h3 {
   color: hsl(303, 10%, 53%);
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 1.6;
 }
 .ratings {
-  transform: translate(0%, 30%);
-  margin-top: 80px;
+  transform: translate(0%, 18%);
+  margin-top: 70px;
 }
 ul {
   display: flex;
@@ -60,13 +60,29 @@ h4 {
 .bottom-container {
   display: flex;
   justify-content: center;
-  margin-top: 120px;
+  margin-top: 60px;
 }
 .magenta-cards1 {
   width: 420px;
   height: 270px;
   border-radius: 10px;
   background-color: hsl(300, 43%, 22%);
+}
+.flex-name {
+  display: flex;
+  justify-content: center;
+}
+.name {
+  color: white;
+  font-weight: 300;
+}
+.status {
+  color: hsl(333, 51%, 53%);
+  margin-top: 3px;
+}
+.details {
+  /* margin-left: 60px; */
+  transform: translate(-45%, 72%);
 }
 .magenta-cards2 {
   width: 420px;
@@ -88,7 +104,7 @@ h4 {
   display: inline-block;
   border-radius: 50%;
   width: 15%;
-  transform: translate(50%, 70%);
+  transform: translate(-125%, 50%);
 }
 p {
   color: white;
